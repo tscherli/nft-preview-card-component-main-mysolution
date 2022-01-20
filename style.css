@@ -1,0 +1,150 @@
+
+body {
+  background-color: hsl(217, 54%, 11%); z-index: 0;}
+
+.container {  
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 15px;  
+  border: none; 
+  width: 322px;
+  height: 546px;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+} 
+
+.cubecontainer {
+  display: inline-block;
+  position: relative;
+  width: 278px;
+  height: 277px;
+  top: 25px;
+  left: 22px;
+
+}
+   
+  .cube {display: inline-block;
+    width: 278px;
+    height: 277px;
+    background: url('cube.jpg');
+    z-index: 2;
+    border-radius: 15px ;
+    background-size: cover;
+    }
+
+  .cube:hover{
+    display: inline-block;
+    width: 278px;
+    height: 277px;
+    background: url('icon-view.svg'), url('cyanlayer.png'), url('cube.jpg'); 
+    background-repeat: no-repeat;
+    background-position: center center, center center, center center;;
+    background-size: 20%, 150%, 100%;
+  }
+
+  .fontheader {
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%) ;}
+
+  .fontheader:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: default;
+  }
+  
+  .fonttext, .clock, .creation { 
+    font-family: 'Outfit', sans-serif; 
+    font-size: 17px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);}
+   
+  .creation{line-height: 4;}
+
+  .jules{font-family: 'Outfit', sans-serif; 
+    font-size: 17px;
+    font-weight: 300;
+    color: hsl(0, 0%, 100%) ;}
+  
+  .jules:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: default;
+  }
+  .ETH { 
+    font-family: 'Outfit', sans-serif; 
+    font-size: 17px;
+    font-weight: 300;
+    color: hsl(178, 100%, 50%);} 
+  
+  .icon-ethereum {
+    display: inline-block;
+    background-image: url('icon-ethereum.svg');
+    height: 15px;
+    width: 15px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .icon-clock {
+    display: inline-block;
+    background-image: url('icon-clock.svg');
+    height: 15px;
+    width: 15px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .avatarcontainer {
+      display: inline-block;
+      position: relative;
+      width: 30x;
+      height: 30px;
+      top:10px;
+  }
+  .avatar {
+    display: inline-block;
+    background-image: url('image-avatar.png');
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 100%;
+  }
+
+    @media screen and (max-width: 375px) {
+      .container {
+          flex-basis: 100%;
+          flex-shrink: 0;
+          flex-grow: 0; 
+          background-color: hsl(216, 50%, 16%);
+          border-radius: 15px;  
+          border: none; 
+          width: 322px;
+          height: 546px;
+          margin-top: 65px;
+          margin-left: auto;
+          margin-right: auto;
+          z-index: 1;
+          } 
+        }
+    }
+
+    @media screen and (max-width: 1440px) {
+      .container {
+          flex-basis: 100%;
+          flex-shrink: 0;
+          flex-grow: 0;
+          margin-top: 100px;
+          background-color: hsl(216, 50%, 16%);
+          border-radius: 15px;  
+          border: none; 
+          width: 322px;
+          height: 546px;
+          margin-top: 10%;
+          margin-left: auto;
+          margin-right: auto;
+          z-index: 1;
+        }
+    }
