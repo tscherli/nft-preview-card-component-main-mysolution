@@ -1,32 +1,59 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-You can use the [editor on GitHub](https://github.com/tscherli/nft-preview-card-component-main-mysolution/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | NFT preview card component</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+</head>
+<body>
 
-### Markdown
+  <div class="container">
+   
+    <div class=cubecontainer>
+        
+      <div class="cube"></div>
+  
+      <p class="fontheader">
+      Equilibrium #3429
+      </p> 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+      <div class="fonttext"> Our Equilibrium collection promotes balance and calm.  
+          <p></p>
+          <div>
+            <span class="ETH">  
+               <div class="icon-ethereum"></div>
+            0.041 ETH  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span> 
+            <span class="clock"> 
+               <div class="icon-clock"></div>             
+            3 days left</span>
+          </div>
 
-```markdown
-Syntax highlighted code block
+      </div>
+      
+      <div style="color: hsl(215, 32%, 27%);">___________________________________</div>
 
-# Header 1
-## Header 2
-### Header 3
+      <div>
+        <span class="avatarcontainer">
+          <span class="avatar"></span>
+        </span>
 
-- Bulleted
-- List
+        <span class="creation">&nbsp;&nbsp;&nbsp;Creation of</span> <span class="jules">Jules Wyvern</span>
+      </div>
 
-1. Numbered
-2. List
+    </div>
 
-**Bold** and _Italic_ and `Code` text
+    </div>
 
-[Link](url) and ![Image](src)
-```
+  </div>
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+</body>
+</html>
 
 ### Jekyll Themes
 
